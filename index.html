@@ -46,7 +46,7 @@
 
       <div class="hero-visual">
         <div class="hero-photo-wrap">
-          <img src="assets/profile1.png" alt="Ibinabo Boukoru" class="hero-photo" />
+          <img src="assets/profile1.PNG" alt="Ibinabo Boukoru" class="hero-photo" />
         </div>
       </div>
 
@@ -55,7 +55,7 @@
     <!-- Mobile-only hero photo: hidden on mobile (JS hides it so only the about photo shows) -->
     <div class="hero-mobile-photo">
       <div class="hero-photo-wrap">
-        <img src="assets/profile1.png" alt="Ibinabo Boukoru" class="hero-photo" />
+        <img src="assets/profile1.PNG" alt="Ibinabo Boukoru" class="hero-photo" />
       </div>
     </div>
 
@@ -72,7 +72,7 @@
       <div class="about-grid">
 
         <div class="about-photo-wrap">
-          <!-- JS swaps src to profile1.png on mobile -->
+          <!-- JS swaps src to profile1.PNG on mobile -->
           <img src="assets/profile.jpeg" alt="Ibinabo Boukoru" class="about-photo" id="about-photo" />
           <div class="about-gold-bar"></div>
         </div>
@@ -554,7 +554,7 @@
   <!-- ================================================
        MOBILE IMAGE SWAP
        On screens ≤700px:
-       - Swap the About photo src from profile.jpeg → profile1.png
+       - Swap the About photo src from profile.jpeg → profile1.PNG
        - Hide the hero mobile photo (so only one image shows)
        On desktop: restore original state
   ================================================= -->
@@ -567,7 +567,7 @@
         var isMobile = window.innerWidth <= 700;
 
         if (aboutPhoto) {
-          aboutPhoto.src = isMobile ? 'assets/profile1.png' : 'assets/profile.jpeg';
+          aboutPhoto.src = isMobile ? 'assets/profile1.PNG' : 'assets/profile.jpeg';
         }
 
         if (heroMobilePhoto) {
